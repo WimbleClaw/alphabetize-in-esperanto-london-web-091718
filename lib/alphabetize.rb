@@ -7,9 +7,6 @@ def alphabetize(arr)
     esperanto_letter[letter] = i
     i += 1
   end
-  
-  
-  
   arr.sort_by do |element| 
     key = []
     element.each_char do |letter|
